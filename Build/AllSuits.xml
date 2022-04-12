@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestingSuite" parallel="tests" configfailurepolicy="continue" thread-count = "3">
+	<listeners>
+		<listener
+			class-name="com.practice.utility.CustomDetailReporter" />
+		<listener
+			class-name="com.practice.utility.CustomReporterBuildSummary" />
+		<listener class-name="com.practice.utility.CustomReporter" />
+	</listeners>
+	<test name="Test1_ListBox">
+		<classes>
+			<class name="com.practice.listbox.ListBoxTestIndex">
+			</class>
+
+		</classes>
+	</test>
+	<test name="Test1_Dropdown">
+		<classes>
+			<class name="com.practice.drodpdown.DropdownTestIndex">
+				
+			</class>
+
+		</classes>
+	</test>
+<test name="Test_Form">
+		<classes>
+			<class name="com.practice.form.FormTestIndex">
+				
+			</class>
+
+		</classes>
+	</test>
+
+</suite>

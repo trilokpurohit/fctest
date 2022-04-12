@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="tests" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.fastcompany.HomeUiTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="fetchSuite"/>
+          <include name="postConfigue"/>
+          <include name="tearDown"/>
+          <include name="setUpforBrowsers"/>
+          <include name="testHomeUi"/>
+        </methods>
+      </class> <!-- com.fastcompany.HomeUiTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

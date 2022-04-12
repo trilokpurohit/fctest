@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestingSuite" parallel="none"
+	configfailurepolicy="continue">
+	<listeners>
+		<listener
+			class-name="com.practice.utility.CustomDetailReporter" />
+		<listener
+			class-name="com.practice.utility.CustomReporterBuildSummary" />
+		<listener class-name="com.practice.utility.CustomReporter" />
+	</listeners>
+	<test name="Test1_Dropdown">
+		<classes>
+			<class
+				name="com.practice.inputforms.radiobuttondemo.RadioDemoTestindex">
+				<methods>
+					<include name="VerifyRadioButton" />
+					<include name="VerifyGroupRadio"/>
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+</suite>

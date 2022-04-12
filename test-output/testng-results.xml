@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Logo on the hompage is displayed. <Strong><font color=#008000>Pass</font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[NEWS header is displayed on the hompage. <Strong><font color=#008000>Pass</font></strong></br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-08T14:40:48Z" name="Suite" finished-at="2022-04-08T14:41:00Z" duration-ms="12683">
+    <groups>
+    </groups>
+    <test started-at="2022-04-08T14:40:48Z" name="Test" finished-at="2022-04-08T14:41:00Z" duration-ms="12683">
+      <class name="com.fastcompany.HomeUiTest">
+        <test-method is-config="true" signature="setUpforBrowsers(org.testng.ITestContext)[pri:0, instance:com.fastcompany.HomeUiTest@3af0a9da]" started-at="2022-04-08T20:10:48Z" name="setUpforBrowsers" finished-at="2022-04-08T20:11:00Z" duration-ms="12454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@15ac59c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpforBrowsers -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.fastcompany.HomeUiTest@3af0a9da]" started-at="2022-04-08T20:11:00Z" name="setUp" finished-at="2022-04-08T20:11:00Z" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.fastcompany.HomeUiTest.testHomeUi()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@15ac59c2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=testHomeUi status=SUCCESS method=HomeUiTest.testHomeUi()[pri:0, instance:com.fastcompany.HomeUiTest@3af0a9da] output=Logo on the hompage is displayed. <Strong><font color=#008000>Pass</font></strong></br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHomeUi()[pri:0, instance:com.fastcompany.HomeUiTest@3af0a9da]" started-at="2022-04-08T20:11:00Z" name="testHomeUi" finished-at="2022-04-08T20:11:00Z" duration-ms="197" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logo on the hompage is displayed. <Strong><font color=#008000>Pass</font></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[NEWS header is displayed on the hompage. <Strong><font color=#008000>Pass</font></strong></br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHomeUi -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.fastcompany.HomeUiTest@3af0a9da]" started-at="2022-04-08T20:11:00Z" name="tearDown" finished-at="2022-04-08T20:11:00Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomeUi status=SUCCESS method=HomeUiTest.testHomeUi()[pri:0, instance:com.fastcompany.HomeUiTest@3af0a9da] output=Logo on the hompage is displayed. <Strong><font color=#008000>Pass</font></strong></br>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@15ac59c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="postConfigue()[pri:0, instance:com.fastcompany.HomeUiTest@3af0a9da]" started-at="2022-04-08T20:11:01Z" name="postConfigue" finished-at="2022-04-08T20:11:25Z" duration-ms="24405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConfigue -->
+      </class> <!-- com.fastcompany.HomeUiTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

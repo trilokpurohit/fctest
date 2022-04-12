@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestingSuite" parallel="none" configfailurepolicy="continue">
+	<listeners>
+		<listener
+			class-name="com.practice.utility.CustomDetailReporter" />
+		<listener
+			class-name="com.practice.utility.CustomReporterBuildSummary" />
+		<listener class-name="com.practice.utility.CustomReporter" />
+	</listeners>
+		<test name="Test_Form">
+		<classes>
+			<class name="com.practice.inputforms.simpleform.FormTestIndex">
+				<methods>
+					<include name="VerifyMessageForForm" />
+					<include name="VerifySum" />
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+</suite>
